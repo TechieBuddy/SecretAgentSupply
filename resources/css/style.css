@@ -10,3 +10,32 @@ html {
 div {
   border: 1px solid green;
 }
+
+/*Logo*/
+.logo {
+  background-color: black;
+  /*width: 100%;*/
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.logo span {
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+}
+
+/*Main banner*/
+.main-banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
