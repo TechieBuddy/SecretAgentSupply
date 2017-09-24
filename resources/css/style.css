@@ -2,10 +2,14 @@ html {
   font-size: 18px;
 }
 
-.site-container {
-  /*display: flex;
-  flex-direction: column;*/
-  width: 960px;
+body {
+  font-family: Helvetica;
+  color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 /*Comment this out when finished with site*/
@@ -26,8 +30,8 @@ div {
 }
 
 .logo span {
-  color: white;
-  font-family: Helvetica;
+  /*color: white;
+  font-family: Helvetica;*/
   font-size: 1rem;
   margin-top: 0.66rem;
   margin-bottom: 0.66rem;
@@ -53,20 +57,37 @@ div {
 }
 
 #new {
-  font-family: Helvetica;
+  /*font-family: Helvetica;*/
   font-size: 1rem;
   font-weight: bold;
-  color: white;
+  /*color: white;*/
   margin-top: 2rem;
   margin-left: 3rem;
 }
 
 #items {
-  font-family: Helvetica;
+  /*font-family: Helvetica;*/
   font-size: 2rem;
   font-weight: bold;
-  color: white;
+  /*color: white;*/
   margin-top: 0.25rem;
   margin-left: 3rem;
   margin-bottom: 2rem;
+}
+
+/*Navigation*/
+.navigation {
+  background-color: firebrick;
+}
+
+li {
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
 }
