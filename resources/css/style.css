@@ -20,16 +20,21 @@ div {
 /*Logo*/
 .logo {
   background-color: black;
-  /*width: 100%;*/
 }
 
-.logo img {
+.logo-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo-content img {
   height: 1.5rem;
   margin-left: 0.5rem;
   margin-right: 1rem;
+
 }
 
-.logo span {
+.logo-content span {
   /*color: white;
   font-family: Helvetica;*/
   font-size: 1rem;
