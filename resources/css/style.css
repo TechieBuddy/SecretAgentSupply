@@ -103,11 +103,15 @@ ul {
   display: flex;
   /*max-width: 960px;
   margin: 0 auto;*/
+  justify-content: space-between;
+  /*width: 30%;*/
 }
 
 #pen img {
   height: 9rem;
   width: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #pen span {
@@ -118,12 +122,14 @@ ul {
   display: flex;
   flex-direction: column;
   width: 30%;
-  /*height: auto;*/
+  height: auto;
 }
 
 #watch img {
   height: 9rem;
-
+  /*width: 100%;*/
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #watch span {
@@ -131,13 +137,16 @@ ul {
 }
 
 #watch {
+  display: flex;
+  flex-direction: column;
   width: 30%;
-  height: auto;
+  /*height: auto;*/
 }
 
 #glasses img {
   height: 9rem;
-
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #glasses span {
@@ -145,7 +154,9 @@ ul {
 }
 
 #glasses {
-  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
   height: auto;
 }
 
