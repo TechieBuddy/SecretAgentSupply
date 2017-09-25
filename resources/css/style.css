@@ -99,6 +99,10 @@ ul {
 
 /*Main Content*/
 
+.main-content {
+  margin-top: 3rem;
+}
+
 .product-grid {
   display: flex;
   /*max-width: 960px;
