@@ -111,22 +111,27 @@ ul {
   /*width: 30%;*/
 }
 
-#pen img {
+.pen-image {
+  display: flex;
+  justify-content: center;
+}
+
+.pen-image img {
   height: 9rem;
-  width: auto;
+  /*width: auto;*/
   margin-top: 2rem;
   margin-bottom: 2rem;
 
 }
 
-#pen span {
+.pen span {
   background-color: black;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
 }
 
-#pen {
+.pen {
   display: flex;
   flex-direction: column;
   width: 30%;
@@ -134,21 +139,26 @@ ul {
   border: 4px solid black;
 }
 
-#watch img {
+.watch-image {
+  display: flex;
+  justify-content: center;
+}
+
+.watch-image img {
   height: 9rem;
   /*width: 100%;*/
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-#watch span {
+.watch span {
   background-color: black;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
 }
 
-#watch {
+.watch {
   display: flex;
   flex-direction: column;
   width: 30%;
@@ -156,20 +166,29 @@ ul {
   border: 4px solid black;
 }
 
-#glasses img {
+.glasses-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 9rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
-#glasses span {
+.glasses-image img {
+  
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /*width: 100%;*/
+  max-width: 9rem;
+}
+
+.glasses span {
   background-color: black;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
 }
 
-#glasses {
+.glasses {
   display: flex;
   flex-direction: column;
   width: 30%;
