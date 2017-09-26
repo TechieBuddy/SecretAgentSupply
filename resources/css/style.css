@@ -184,3 +184,15 @@ ul {
 #hours {
   background-color: black;
 }
+
+/*Footer*/
+footer {
+  background-color: black;
+
+}
+
+.copyright {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+}
