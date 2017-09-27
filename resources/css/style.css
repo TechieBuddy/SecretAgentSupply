@@ -115,8 +115,8 @@ ul {
 .pen-image img {
   height: 9rem;
   /*width: auto;*/
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
 }
 
@@ -143,8 +143,8 @@ ul {
 .watch-image img {
   height: 9rem;
   /*width: 100%;*/
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .watch span {
@@ -172,8 +172,8 @@ ul {
 
 .glasses-image img {
 
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   /*width: 100%;*/
   max-width: 9rem;
 }
