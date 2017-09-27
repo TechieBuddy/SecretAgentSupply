@@ -17,7 +17,7 @@ div {
   border: 1px solid green;
 }
 
-/*Logo*/
+/****Logo****/
 .logo {
   background-color: black;
 }
@@ -42,7 +42,7 @@ div {
   margin-bottom: 0.66rem;
 }
 
-/*Main banner*/
+/****Main banner****/
 .main-banner {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   background-repeat: no-repeat;
@@ -53,12 +53,15 @@ div {
 
 .banner-content {
   width: 20rem;
+  /*height: auto;*/
   background-color: black;
   margin-top: 9rem;
+  padding-right: 5rem;
 }
 
 .banner-content span {
   display: block;
+
 }
 
 #new {
@@ -78,9 +81,10 @@ div {
   margin-top: 0.25rem;
   margin-left: 3rem;
   margin-bottom: 2rem;
+  width: 20rem;
 }
 
-/*Navigation*/
+/****Navigation****/
 .navigation {
   background-color: firebrick;
 }
@@ -97,8 +101,7 @@ ul {
   justify-content: space-between;
 }
 
-/*Main Content*/
-
+/****Main Content****/
 .main-content {
   margin-top: 3rem;
 }
@@ -174,7 +177,7 @@ ul {
 }
 
 .glasses-image img {
-  
+
   margin-top: 2rem;
   margin-bottom: 2rem;
   /*width: 100%;*/
@@ -237,7 +240,7 @@ ul {
   color: black;
 }
 
-/*Footer*/
+/****Footer****/
 footer {
   background-color: black;
 
