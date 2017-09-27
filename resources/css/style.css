@@ -13,9 +13,11 @@ body {
 }
 
 /*Comment this out when finished with site*/
+/*
 div {
   border: 1px solid green;
 }
+*/
 
 /****Logo****/
 .logo {
@@ -52,11 +54,11 @@ div {
 }
 
 .banner-content {
-  width: 20rem;
-  /*height: auto;*/
   background-color: black;
-  margin-top: 9rem;
-  padding-right: 5rem;
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  padding: 2em 3em;
 }
 
 .banner-content span {
@@ -64,24 +66,15 @@ div {
 
 }
 
-#new {
-  /*font-family: Helvetica;*/
+.banner-content h4 {
   font-size: 1rem;
   font-weight: bold;
-  /*color: white;*/
-  margin-top: 2rem;
-  margin-left: 3rem;
 }
 
-#items {
-  /*font-family: Helvetica;*/
+.banner-content h1 {
   font-size: 2rem;
   font-weight: bold;
-  /*color: white;*/
-  margin-top: 0.25rem;
-  margin-left: 3rem;
-  margin-bottom: 2rem;
-  width: 20rem;
+  padding-top: 0.25rem;
 }
 
 /****Navigation****/
@@ -174,6 +167,7 @@ ul {
   justify-content: center;
   align-items: center;
   height: 9rem;
+
 }
 
 .glasses-image img {
