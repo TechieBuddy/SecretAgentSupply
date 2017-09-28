@@ -89,9 +89,14 @@ li {
   margin-bottom: 0.75rem;
 }
 
-ul {
+.laptop-display ul {
   display: flex;
   justify-content: space-between;
+}
+
+.tablet-display ul {
+  display: none;
+  text-align: center;
 }
 
 /****Main Content****/
@@ -172,8 +177,7 @@ ul {
 
 .glasses-image img {
 
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
   /*width: 100%;*/
   max-width: 9rem;
 }
@@ -247,5 +251,23 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
 
+  .glasses {
+    display: none;
+  }
+
+  .pen, .watch {
+    width: 47%;
+  }
+
+  .laptop-display ul {
+    display: none;
+  }
+
+  .tablet-display ul {
+    display: block;
+  }
 }
