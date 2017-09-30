@@ -247,6 +247,7 @@ footer {
   align-items: center;
 }
 
+/****Media queries for responsive design****/
 @media only screen and (max-width: 1024px) {
   html {
     font-size: 16px;
@@ -278,6 +279,7 @@ footer {
     width: 100%;
     position: relative;
     top: 10rem;
+    padding: 1em 2em;
   }
 
   .watch {
@@ -298,6 +300,7 @@ footer {
 
   #hours {
     width: 90%;
+    margin-top: 0.5rem;
   }
 
   .product-grid {
@@ -306,5 +309,33 @@ footer {
 
   .location-hours {
     align-items: center;
+  }
+
+  .banner-content h4 {
+    font-size: 0.77rem;
+  }
+
+  .banner-content h1 {
+    font-size: 1rem;
+  }
+
+  .logo-content img {
+    margin: 0.66rem 0;
+  }
+
+  .logo-content span {
+    display: none;
+  }
+
+  .logo-content {
+    justify-content: center;
+  }
+
+  #loc-value, #hr-value {
+    padding-top: 0.5rem;
+  }
+
+  .copyright {
+    justify-content: center;
   }
 }
