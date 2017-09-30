@@ -270,5 +270,41 @@ footer {
 }
 
 @media only screen and (max-width: 470px) {
+  .main-banner {
+    height: 15rem;
+  }
 
+  .banner-content {
+    width: 100%;
+    position: relative;
+    top: 10rem;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .pen {
+    width: 90%;
+  }
+
+  .location-hours {
+    flex-direction: column;
+  }
+
+  #location {
+    width: 90%;
+  }
+
+  #hours {
+    width: 90%;
+  }
+
+  .product-grid {
+    justify-content: center;
+  }
+
+  .location-hours {
+    align-items: center;
+  }
 }
